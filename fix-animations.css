@@ -1,0 +1,8 @@
+/* Disable scroll animations - make all elements immediately visible */
+.transition.transition--slide:not(.transition--root-hidden),
+.transition.transition--fade:not(.transition--root-hidden),
+.transition.transition--scale:not(.transition--root-hidden) {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+}

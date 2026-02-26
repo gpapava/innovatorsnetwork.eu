@@ -1,0 +1,4 @@
+Sitemap: https://innovatorsnetwork.eu/sitemap.xml
+
+User-agent: *
+Disallow:
